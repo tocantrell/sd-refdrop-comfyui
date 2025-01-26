@@ -69,4 +69,4 @@ score_6, score_5, score_4,
 ![Advanced node settings](examples/advanced_node.png)
 
 ## Afterword
-A big thank you to the author of this paper for coming up with the idea and taking the time to talk with me about it at NeurIPS 2024. There is a lot left to explore in this area, including applicability to other areas such as video. One important point that needs to be addressed for this implementation is figuring out how to prune what needs to be saved in order to acheive the desired results. The current implementation is saving all K and V values that are created at any point during the image generation, which is probably overkill.
+A big thank you to the author of this paper for coming up with the idea and taking the time to talk with me about it at NeurIPS 2024. There is a lot left to explore in this area, including applicability to other areas such as video. The current implementation only works for Stable Diffusion, but I plan to add Flux compatibility soon.
