@@ -33,7 +33,7 @@ The following images use the same original saved output, but then are merged or 
 | ![Base](examples/base.png) | ![Real Base](examples/real_base.png) | ![Real Merge](examples/real_merge.png) | ![Real Diff](examples/real_diff.png) |
 
 ## Usage Guide
-I recommend installing by using the [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager). Within the ComfyUI Manager Menu, click Custom Nodes Manager and then Install via Git URL at the bottom. After refreshing ComfyUI, you will now have access to five new nodes under the `RefDrop` custom node category. Most users should stick with the `RefDrop Combined` node, but there are separate nodes for the `Save` and `Use` if you have a particular use case. Below is a basic workflow example.
+I recommend installing by using the [ComfyUI Manager](https://github.com/ltdrdata/ComfyUI-Manager). Within the ComfyUI Manager Menu, click Custom Nodes Manager and then Install via Git URL at the bottom. If you get a security error, open `ComfyUI/custom_nodes/ComfyUI-Manager/config.ini` and change `security_level` from `normal` to `weak`. After refreshing ComfyUI, you will now have access to five new nodes under the `RefDrop` custom node category. Most users should stick with the `RefDrop Combined` node, but there are separate nodes for the `Save` and `Use` if you have a particular use case. Below is a basic workflow example.
 
 ![RefDrop node implementation example](examples/node_layout.png)
 
